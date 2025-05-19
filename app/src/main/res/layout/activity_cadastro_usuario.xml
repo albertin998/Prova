@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <EditText android:id="@+id/editNome"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Nome" />
+
+    <EditText android:id="@+id/editEmail"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="E-mail" />
+
+    <EditText android:id="@+id/editSenha"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Senha" android:inputType="textPassword" />
+
+    <EditText android:id="@+id/editConfirmaSenha"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Confirmar Senha" android:inputType="textPassword" />
+
+    <Button android:id="@+id/btnConfirmarCadastro"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Cadastrar" />
+</LinearLayout>

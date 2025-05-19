@@ -1,0 +1,25 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/editNome" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nome" />
+        <EditText android:id="@+id/editTelefone1" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Telefone Principal" />
+        <EditText android:id="@+id/editTelefone2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Telefone Secundário" />
+        <EditText android:id="@+id/editNascimento" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Data de Nascimento" />
+        <EditText android:id="@+id/editEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" />
+        <EditText android:id="@+id/editRua" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Rua" />
+        <EditText android:id="@+id/editQuadra" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Quadra" />
+        <EditText android:id="@+id/editLote" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lote" />
+        <EditText android:id="@+id/editBairro" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Bairro" />
+        <EditText android:id="@+id/editCidade" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Cidade" />
+        <EditText android:id="@+id/editEstado" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Estado" />
+        <EditText android:id="@+id/editCep" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="CEP" />
+        <EditText android:id="@+id/editCpf" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="CPF" />
+
+        <Button android:id="@+id/btnSalvarContato"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Salvar" />
+    </LinearLayout>
+</ScrollView>
